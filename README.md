@@ -23,6 +23,7 @@ Mutation probability
 
 With increase in mutation probability the algorithm converges faster. Mutation probability 0.0001 means choosing a random number between 0 and 10000 and chance that this random number is 1. Similarly, Mutation probability 0.1 means choosing a random number between 0 and 10 and chance that this random number is 1. So, there is a higher probability of getting 1 when the random number is chosen between 0 to 10 than when chosen between 0 to 10000. So, the number of mutations will increase with increase in mutation probability. With increase in mutation probability the algorithm gets to see more states hence faster it converges.
 
+Note:
 * The graph of average fitness vs generation takes average fitness of each generation therefore even though the solution is obtained the average fitness is not 28 since it takes the average off all states in the population. 
 * Different runs may give different results since the initial population is generated randomly. 
 * States in population have less diversity as the number of generations increase or when the algorithm nearly converges to a solution and this situation is quite common with smaller population size. 
